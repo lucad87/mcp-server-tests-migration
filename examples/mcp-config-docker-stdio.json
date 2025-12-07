@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "tests-migration": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "mcp-server-tests-migration:2.1.0",
+        "node",
+        "index.js"
+      ]
+    }
+  }
+}

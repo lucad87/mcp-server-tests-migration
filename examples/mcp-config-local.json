@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tests-migration": {
+      "command": "node",
+      "args": ["/path/to/mcp-server-tests-migration/index.js"],
+      "env": {}
+    }
+  }
+}

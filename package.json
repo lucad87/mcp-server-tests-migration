@@ -1,0 +1,40 @@
+{
+  "name": "mcp-server-tests-migration",
+  "version": "2.1.0",
+  "description": "MCP server for migrating WebDriverIO tests to Playwright using AST-based transformation",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-server-tests-migration": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:http": "node server-http.js",
+    "docker:build": "docker build -t mcp-server-tests-migration:2.1.0 .",
+    "docker:run": "docker run -p 3000:3000 mcp-server-tests-migration:2.1.0",
+    "docker:compose": "docker-compose up -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "webdriverio",
+    "test-migration",
+    "automation",
+    "ast",
+    "babel",
+    "typescript"
+  ],
+  "author": "Luca Donnaloia",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.28.5",
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@babel/types": "^7.28.5",
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "@playwright/test": "^1.56.1",
+    "express": "^5.2.1",
+    "playwright": "^1.56.1"
+  }
+}

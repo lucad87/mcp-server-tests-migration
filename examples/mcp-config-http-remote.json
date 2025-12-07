@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tests-migration": {
+      "transport": "http",
+      "url": "http://your-server.example.com:3000/mcp"
+    }
+  }
+}
