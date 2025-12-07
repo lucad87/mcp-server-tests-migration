@@ -2,7 +2,7 @@
  * Constants for WDIO to Playwright migration
  */
 
-export const PLAYWRIGHT_DOCS_VERSION = 'v1.49';
+export const PLAYWRIGHT_DOCS_VERSION = 'v1.57';
 
 // Complete WDIO to Playwright command mappings
 export const COMMAND_MAPPINGS = {

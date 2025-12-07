@@ -25,7 +25,7 @@ Migrates WDIO tests to Playwright using AST transformation:
 - Updates selectors to use Playwright locators
 - Suggests modern locators (getByTestId with `data-test-id`)
 - Replaces WDIO commands with Playwright equivalents
-- Uses latest Playwright v1.49 best practices
+- Uses latest Playwright v1.57 best practices
 - Removes unnecessary explicit waits (leverages auto-waiting)
 - Converts assertions to Playwright's expect
 - Preserves already-migrated code (supports partial migrations)
